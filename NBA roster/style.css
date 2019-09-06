@@ -1,0 +1,33 @@
+body{
+    background-color: navy;
+    color: white;
+    margin: 0;
+}
+section{
+ display: flex;
+ flex-direction: row;
+}
+nav, article{
+    width: 100%;
+    padding: 15px
+}
+
+header, footer {
+    background-color: #fff;
+    padding: 15px
+}
+
+nav{
+    background-color:aqua
+}
+article{
+    background-color: #999;
+}
+td {
+    color:red;
+}
+@media screen and (max-width:600px) {
+    section{
+        flex-direction: column;
+    }
+}
